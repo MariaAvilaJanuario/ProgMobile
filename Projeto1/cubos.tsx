@@ -22,7 +22,8 @@ export default function Index() {
     textoCubos:{
       textAlign: "center",
       color: "#ffffff",
-      fontSize: 30,
+      fontSize: 25,
       fontWeight: "bold",
+      marginTop: 20,
     }
   })
