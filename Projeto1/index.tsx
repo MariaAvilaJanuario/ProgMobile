@@ -5,11 +5,15 @@ export default function Index() {
   return (
     <View style={styles.container}>
 
-      <Text style={[styles.texto, {marginBottom: 30}]}>Bem-vindo</Text>
-      <Text style={[styles.texto, {fontSize:15, fontWeight:"400", margin:20, textAlign:"justify", flex:2}]}>
+      <Text style={[styles.texto, {marginBottom: 30}]}> Bem-vindo </Text>
+      
+      <Text style={[styles.texto, {fontSize:15, fontWeight:"400", margin:20, textAlign:"center", flex:2}]}>
         Aproveite tudo que esse aplicativo pode oferecer.
         Esse texto é bem grande, mas ainda cabe na minha tela!!
-        </Text>
+        <br/>
+        <br/>
+        <strong>Feito por: Maria Eduarda(N31) e Emily Taina(N10)</strong>
+      </Text>
 
       <Link href="/cubos" style={styles.texto}>
         Ir para outra página
@@ -33,5 +37,7 @@ export default function Index() {
       fontWeight: "bold",
       borderWidth: 2,
       borderColor: "#000000",
+      borderRadius: 7,
+      margin: 50
     }
   })
