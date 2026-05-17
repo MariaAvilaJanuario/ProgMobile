@@ -44,7 +44,7 @@ export default function Index() {
         </View>
 
       <Text style={[estilos.texto, {marginTop:20}, {textAlign:"center"}]}>
-        Feito por: Maria Eduarda N31
+        Feito por: Maria Eduarda (N31) e Kemilly Emanuelly (N26)
       </Text>
       </View>
     </View>
