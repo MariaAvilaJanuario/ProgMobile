@@ -1,6 +1,7 @@
 import { Image, Text, View } from "react-native"
 import { Serie } from "./serie"
 import { estilos } from "./styleSheet"
+import { Link } from "expo-router"
 
 export const Caixa =  ({serie}:{serie:Serie})=>{
     return(
@@ -27,9 +28,9 @@ export const Caixa =  ({serie}:{serie:Serie})=>{
 export const Topo = ()=>{
     return(
         <View style={estilos.topo}>
-            <Text style={estilos.topoBotao}>Catálogo</Text>
-            <Text style={estilos.topoBotao}>Para Assistir</Text>
-            <Text style={estilos.topoBotao}>Assistidos</Text>
+            <Link href={"/"} style={estilos.topoBotao}>Catálogo</Link>
+            <Link href={"/progresso"} style={estilos.topoBotao}>Para Assistir</Link>
+            <Link href={"/completos"} style={estilos.topoBotao}>Assistidos</Link>
         </View>
     )
 }
