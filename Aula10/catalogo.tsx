@@ -2,4 +2,5 @@ import { Serie } from "./serie";
 
 export const item1 = new Serie("Breaking Bad", require("../../assets/images/breakingbad.jpeg"), 62, 5, "Um professor de química, diagnostificado com câncer, decide produzir metanfetamina para garantir o futuro financeiro de sua família. Ao lado de seu ex-aluno, ele entra cada vez mais fundo no mundo do crime.")
 export const item2 = new Serie("Game of Thrones", require("../../assets/images/gameofthrones.jpg"), 73, 8, "Em um mundo medieval marcado por guerras, alianças e traições, várias famílias nobre disputam o controle do Trono de Ferro. Enquanto lutam pelo poder, uma ameaça sobrenatural cresce no extremo norte")
-
+export const item3 = new Serie("Wandinha", require("../../assets/images/wandinha.jpg"), 16, 2, "Inteligente, sarcástica e apática, Wandinha Addams pode estar meio morta por dentro, mas na Escola Nunca Mais ela vai fazer amigos, inimigos e investigar assassinatos.")
+export const item4 = new Serie("Peaky Blinders", require("../../assets/images/peakyblinders.jpg"), 36, 6, "Uma notória gangue da Inglaterra de 1919 ascende no submundo liderada pelo cruel Tommy Shelby, um criminoso disposto a subir na vida a qualquer preço.")

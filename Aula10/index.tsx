@@ -17,6 +17,8 @@ export default function Index() {
         <View style={estilos.lista}>
           <Caixa serie={series.item1}/>
           <Caixa serie={series.item2}/>
+          <Caixa serie={series.item3}/>
+          <Caixa serie={series.item4}/>
         </View>
         
       </View>

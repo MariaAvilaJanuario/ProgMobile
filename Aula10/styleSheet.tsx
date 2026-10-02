@@ -37,14 +37,18 @@ export const estilos = StyleSheet.create({
 
     lista:{
         flexDirection:"column",
+        width:"100%"
     },
 
     serieQuadro:{
         backgroundColor:"black",
         flexDirection:"row",
+        justifyContent:"space-between",
+        alignSelf:"center",
         padding:15,
         margin:5,
-        width:700
+        width:"60%",
+        minWidth:600
     },
 
     serieTitulo:{

@@ -1,7 +1,7 @@
+import { Link } from "expo-router"
 import { Image, Text, View } from "react-native"
 import { Serie } from "./serie"
 import { estilos } from "./styleSheet"
-import { Link } from "expo-router"
 
 export const Caixa =  ({serie}:{serie:Serie})=>{
     return(
@@ -9,9 +9,9 @@ export const Caixa =  ({serie}:{serie:Serie})=>{
             <Image source={serie.imagem} style={{height:200, width:150, resizeMode:"stretch"}}/>
 
             <View style={estilos.serieInfo}>
-                <Text style={estilos.serieTitulo}> {serie.titulo} </Text>
-                <Text style={estilos.texto}> {serie.episodios} episódios</Text>
-                <Text style={estilos.texto}> {serie.temporadas} temporadas</Text>
+                <Text style={estilos.serieTitulo}>{serie.titulo} </Text>
+                <Text style={estilos.texto}>{serie.episodios} episódios</Text>
+                <Text style={estilos.texto}>{serie.temporadas} temporadas</Text>
                 <Text style={estilos.serieSinopse}>{serie.descricao}</Text>
             </View>
 
